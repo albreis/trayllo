@@ -1,7 +1,9 @@
 <?php namespace Albreis\Trayllo\Integracoes;
 
-class TricaeWS extends Integracao {
-	public function __construct(){
-		parent::__construct();
-	}
+class TricaeWS extends Integracao
+{
+    public function __construct()
+    {
+        parent::__construct();
+    }
 }

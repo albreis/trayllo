@@ -1,6 +1,6 @@
 <?php namespace Albreis\Trayllo\Integracoes;
 
-class Carrefour extends Integracao
+class OpenCart extends Integracao
 {
     public function __construct()
     {

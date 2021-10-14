@@ -1,7 +1,9 @@
 <?php namespace Albreis\Trayllo\Integracoes;
 
-class TrayCommerce extends Integracao {
-	public function __construct(){
-		parent::__construct();
-	}
+class TrayCommerce extends Integracao
+{
+    public function __construct()
+    {
+        parent::__construct();
+    }
 }

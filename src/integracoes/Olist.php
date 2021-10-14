@@ -1,7 +1,9 @@
 <?php namespace Albreis\Trayllo\Integracoes;
 
-class Olist extends Integracao {
-	public function __construct(){
-		parent::__construct();
-	}
+class Olist extends Integracao
+{
+    public function __construct()
+    {
+        parent::__construct();
+    }
 }
