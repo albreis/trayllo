@@ -1,0 +1,29 @@
+{
+    "name": "albreis/trayllo",
+    "version": "1.0.0",
+    "description": "Trayllo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Albreis - Design e Programação",
+            "email": "albreisdev@gmail.com"
+        }
+    ],
+    "require": {
+        "automattic/woocommerce": "^3.0",
+        "vonage/client": "^2.4"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "*",
+      "squizlabs/php_codesniffer": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+          "Albreis\\Trayllo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "Albreis\\Trayllo\\Tests\\": "tests/Trayllo" }
+    }
+}
